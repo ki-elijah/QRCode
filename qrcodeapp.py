@@ -2,7 +2,7 @@ import pyqrcode
 import png
 from pyqrcode import QRCode
 
-e = "nze_kizito"
+e = input("Enter the amount of money or number for the item: ")
 url = pyqrcode.create(e)
-url.svg("code.svg", scale = 8)
-url.png('code.png', scale = 6)
+url.svg("code.svg", scale = 10)
+url.png('code.png', scale = 10)
